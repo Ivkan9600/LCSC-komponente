@@ -1,0 +1,17 @@
+# KiCad LCSC Libraries
+
+Local KiCad libraries generated from LCSC/EasyEDA component data.
+
+## Components
+
+- `C7498141` / `APCI0108-P001A`
+  - Symbol library: `kicad-lcsc-C7498141/lcsc-C7498141.kicad_sym`
+  - Footprint library: `kicad-lcsc-C7498141/lcsc-C7498141.pretty`
+  - 3D models: `kicad-lcsc-C7498141/lcsc-C7498141.3dshapes`
+- `C51897848` / `HDMI-DF013-H3.35`
+  - Symbol library: `kicad-lcsc-C51897848/lcsc-C51897848.kicad_sym`
+  - Footprint library: `kicad-lcsc-C51897848/lcsc-C51897848.pretty`
+  - 3D model: `kicad-lcsc-C51897848/467651001.stp`
+
+Add each `.kicad_sym` file in KiCad's Symbol Library Manager and each
+`.pretty` folder in KiCad's Footprint Library Manager.
