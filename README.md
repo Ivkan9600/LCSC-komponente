@@ -13,5 +13,10 @@ Local KiCad libraries generated from LCSC/EasyEDA component data.
   - Footprint library: `kicad-lcsc-C51897848/lcsc-C51897848.pretty`
   - 3D model: `kicad-lcsc-C51897848/467651001.stp`
 
+- `C5373042` / `CH334P`
+  - Symbol library: `kicad-lcsc-C5373042/lcsc-C5373042.kicad_sym`
+  - Footprint library: `kicad-lcsc-C5373042/lcsc-C5373042.pretty`
+  - 3D models: `kicad-lcsc-C5373042/lcsc-C5373042.3dshapes`
+
 Add each `.kicad_sym` file in KiCad's Symbol Library Manager and each
 `.pretty` folder in KiCad's Footprint Library Manager.
