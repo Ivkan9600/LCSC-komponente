@@ -2,6 +2,17 @@
 
 Local KiCad libraries generated from LCSC/EasyEDA component data.
 
+## Common Library
+
+Use this if you want one KiCad library entry for all generated LCSC parts:
+
+- Symbol library: `LCSC_common.kicad_sym`
+- Footprint library: `LCSC_common.pretty`
+- 3D models: `LCSC_common.3dshapes`
+
+Register both the symbol and footprint libraries with the nickname `LCSC_common`.
+The per-component libraries below are kept for compatibility.
+
 ## Components
 
 - `C7498141` / `APCI0108-P001A`
@@ -18,5 +29,4 @@ Local KiCad libraries generated from LCSC/EasyEDA component data.
   - Footprint library: `kicad-lcsc-C5373042/lcsc-C5373042.pretty`
   - 3D models: `kicad-lcsc-C5373042/lcsc-C5373042.3dshapes`
 
-Add each `.kicad_sym` file in KiCad's Symbol Library Manager and each
-`.pretty` folder in KiCad's Footprint Library Manager.
+For new projects, add `LCSC_common.kicad_sym` in KiCad's Symbol Library Manager and `LCSC_common.pretty` in KiCad's Footprint Library Manager. Use the nickname `LCSC_common` for both.
