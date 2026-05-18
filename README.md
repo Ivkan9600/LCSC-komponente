@@ -34,4 +34,9 @@ The per-component libraries below are kept for compatibility.
   - Footprint library: `kicad-lcsc-C7073593/lcsc-C7073593.pretty`
   - 3D models: `kicad-lcsc-C7073593/lcsc-C7073593.3dshapes`
 
+- `C19190416` / `TPSM863257RDXR`
+  - Symbol library: `kicad-lcsc-C19190416/lcsc-C19190416.kicad_sym`
+  - Footprint library: `kicad-lcsc-C19190416/lcsc-C19190416.pretty`
+  - 3D models: `kicad-lcsc-C19190416/lcsc-C19190416.3dshapes`
+
 For new projects, add `LCSC_common.kicad_sym` in KiCad's Symbol Library Manager and `LCSC_common.pretty` in KiCad's Footprint Library Manager. Use the nickname `LCSC_common` for both.
